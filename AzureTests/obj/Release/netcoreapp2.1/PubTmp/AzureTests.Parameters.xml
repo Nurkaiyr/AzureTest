@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="AzureTests20190216011143" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\1\\Source\\Repos\\AzureTests\\AzureTests\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="AzureTests.Data.ApplicationDbContext" description="" value="Data Source=tcp:testazureyn.database.windows.net,1433;Initial Catalog=AzureTests20190216011143_db;User Id=nurkaiyr@testazureyn;Password=NurikNurik123" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\1\\Source\\Repos\\AzureTests\\AzureTests\\obj\\Release\\netcoreapp2\.1\\PubTmp\\EFSQLScripts\\AzureTests\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

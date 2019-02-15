@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApEfDojqBPkyqJ0Ak3E268wAAAAACAAAAAAAQZgAAAAEAACAAAACpuXHyHkL1YKj6Gvs8qKf/dySDzmTzDaC916o2BVA4uQAAAAAOgAAAAAIAACAAAABbFD27FRMRS6UOH52LJA604ntaf9Ek4S3NEbnSfSIxXYAAAACJrnTX78O0Ql1rC1DVGM/0TQJXzEqPuxBYG9BN6MuE4N259rjBkXUnlwfYdGC6YMZPML3NnESm6az0UdnluoMowIdYVHDA4uBar2b+WJcDC+xvRHZ6ny9GMz7iuP945hPrHkOhAzZAm3u0OuEveGXPqW2wrWQizrDPKHrILEnIVEAAAAC/2v+tlnt64wEnq+nYarilcszzeXwE9/2G1/7ZfWGNZ/8OX1dJEu5VhVTE1ay2D752tfmJuT97e5e0POrmxh7f</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:testazureyn.database.windows.net,1433%3bInitial Catalog=AzureTests20190216011143_db%3bUser Id=nurkaiyr%40testazureyn%3bPassword=NurikNurik123</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="AzureTests.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:testazureyn.database.windows.net,1433%3bInitial Catalog=AzureTests20190216011143_db%3bUser Id=nurkaiyr%40testazureyn%3bPassword=NurikNurik123</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
